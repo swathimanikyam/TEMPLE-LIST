@@ -6,14 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Scroll Animation</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Temple List</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--Heading section-->
     <h1 class="heading">WELCOME TO MY FAVORITE TEMPLES LIST.</h1>
+    
     <div class="box row">
-        <img class="col-lg" src="./temple-data/temple project image/arunachalaeswara temple/arunachaleswarar temple1.jpg" alt="">
-        <div class="col-lg">
+        <div class="col-lg-6">
+        <div id="carouselExampleInterval-1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./temple-data/temple project image/arunachalaeswara temple/arunachaleswarar temple1.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./temple-data/temple project image/arunachalaeswara temple/arunachaleswarar temple4.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./temple-data/temple project image/arunachalaeswara temple/arunachaleswarar temple3.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./temple-data/temple project image/arunachalaeswara temple/arunachaleswarar temple3.jpg" class="d-block" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval-1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval-1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+        <div class="col-lg-6">
             <h3 >Arunachalesvara Temple (also called Annamalaiyar Temple) is a Hindu temple dedicated to the deity Shiva, 
                 located at the base of Arunachala hill in the town of Thiruvannamalai in Tamil Nadu, India. It is significant to the
                 Hindu sect of Shaivism as one of the temples associated with the five elements, the 
@@ -24,7 +52,32 @@
         </div>
     </div>
     <div class="box row">
-        <img class="col-lg" src="./temple-data/temple project image/Dhakeshwari_Temple/Dhakeshwari_Temple_1.jpg" alt="">
+        <div class="col-lg-6">
+            <div id="carouselExampleInterval-2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./temple-data/temple project image/Dhakeshwari_Temple/Dhakeshwari_Temple_1.jpg" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./temple-data/temple project image/Dhakeshwari_Temple/Dhakeshwari_Temple_2.jpg" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./temple-data/temple project image/Dhakeshwari_Temple/Dhakeshwari_Temple3.jpg" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./temple-data/temple project image/Dhakeshwari_Temple/Dhakeshwari_Temple4.jpg" class="d-block" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval-2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval-2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
         <div class="col-lg">
             <h3 >It is state-owned, giving it the distinction of being Bangladesh's 'National Temple'. 
                 This temple is part of the famous Shakti Peethas in Indian Subcontinent. 
@@ -34,8 +87,32 @@
             </div>
         </div>
     </div>
-    <div class="box row">
-        <img class="col-lg" src="./temple-data/temple project image/linagaraj temple/lingaraj temple1.jpg" alt="">
+    <div class="box row"><div class="col-lg-6">
+        <div id="carouselExampleInterval-3" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./temple-data/temple project image/linagaraj temple/lingaraj temple1.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./temple-data/temple project image/linagaraj temple/lingaraj temple2.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./temple-data/temple project image/linagaraj temple/lingaraj temple3.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./temple-data/temple project image/linagaraj temple/lingaraj temple4.jpg" class="d-block" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval-3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval-3" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
         <div class="col-lg">
             <h3>Lingaraja Temple is a Hindu temple located in the city of Bhubaneswar in the Indian state of Odisha. 
                 The temple is dedicated to Lord Shiva and is one of the oldest and largest temples in the state. 
